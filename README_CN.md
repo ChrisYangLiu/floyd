@@ -10,7 +10,7 @@ Floyd是一个C++实现的Raft一致性协议库。
 
 ## 用户
 
-* Floyd 目前应用在[Zeppelin](https://github.com/Qihoo360/zeppelin)中，为其Meta集群提供一致性的存储；Zeppeli是一个大容量的分布式key-value存储；
+* Floyd 目前应用在[Zeppelin](https://github.com/Qihoo360/zeppelin)中，为其Meta集群提供一致性的存储；Zeppelin是一个大容量的分布式key-value存储；
 * 陆续会有新的项目在使用；
 
 ## 我们为什么倾向于库，而不是一个服务?
