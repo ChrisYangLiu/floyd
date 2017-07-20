@@ -1,8 +1,6 @@
-CC=cc
 CXX=g++
-LDFLAGS= -lsnappy -lz -lbz2 -lprotobuf -lpthread -lrt $(EXTRA_LDFLAGS)
-CFLAGS= -DOS_LINUX -fno-builtin-memcmp -msse -msse4.2 ${EXTRA_CFLAGS}
-CXXFLAGS=-std=c++11 -DOS_LINUX -fno-builtin-memcmp -msse -msse4.2 ${EXTRA_CXXFLAGS}
+LDFLAGS= -lsnappy -lz -lbz2 -lprotobuf -lpthread -lrt
+CXXFLAGS= -std=c++11 -fno-builtin-memcmp -msse -msse4.2
 # OPT = -O0 -g
 OPT = -O2 -DNDEBUG
 
